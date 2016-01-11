@@ -47,6 +47,9 @@
 		157C203A1C42D8760098901F /* UIButton+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C20301C42D8760098901F /* UIButton+AlamofireImage.swift */; };
 		157C203B1C42D8760098901F /* UIImage+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C20311C42D8760098901F /* UIImage+AlamofireImage.swift */; };
 		157C203C1C42D8760098901F /* UIImageView+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C20321C42D8760098901F /* UIImageView+AlamofireImage.swift */; };
+		15BF57B21C432FDA0073E69E /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF57B11C432FDA0073E69E /* IntroViewController.swift */; };
+		15BF57B41C43304E0073E69E /* IntroPageItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF57B31C43304E0073E69E /* IntroPageItemView.swift */; };
+		15BF57B61C4335230073E69E /* ExUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF57B51C4335230073E69E /* ExUIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +118,9 @@
 		157C20301C42D8760098901F /* UIButton+AlamofireImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton+AlamofireImage.swift"; path = "Application/Network/Image/UIButton+AlamofireImage.swift"; sourceTree = "<group>"; };
 		157C20311C42D8760098901F /* UIImage+AlamofireImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+AlamofireImage.swift"; path = "Application/Network/Image/UIImage+AlamofireImage.swift"; sourceTree = "<group>"; };
 		157C20321C42D8760098901F /* UIImageView+AlamofireImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+AlamofireImage.swift"; path = "Application/Network/Image/UIImageView+AlamofireImage.swift"; sourceTree = "<group>"; };
+		15BF57B11C432FDA0073E69E /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroViewController.swift; path = Controllers/IntroViewController.swift; sourceTree = "<group>"; };
+		15BF57B31C43304E0073E69E /* IntroPageItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroPageItemView.swift; path = Views/IntroPageItemView.swift; sourceTree = "<group>"; };
+		15BF57B51C4335230073E69E /* ExUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExUIColor.swift; path = Views/Menu/ExUIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +213,7 @@
 			children = (
 				157C201C1C42CB180098901F /* Menu */,
 				1542A5051C28C00300E11160 /* BookTableViewCell.swift */,
+				15BF57B31C43304E0073E69E /* IntroPageItemView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -219,6 +226,7 @@
 				1542A5011C28BF9700E11160 /* MainViewController.swift */,
 				1542A5031C28BFDE00E11160 /* ResultsTableViewController.swift */,
 				157C20251C42CC0B0098901F /* AboutViewController.swift */,
+				15BF57B11C432FDA0073E69E /* IntroViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -279,6 +287,7 @@
 			children = (
 				157C201D1C42CB7B0098901F /* ExUIViewController.swift */,
 				157C201E1C42CB7B0098901F /* SlideMenuController.swift */,
+				15BF57B51C4335230073E69E /* ExUIColor.swift */,
 			);
 			name = Menu;
 			sourceTree = "<group>";
@@ -439,8 +448,10 @@
 				157C20351C42D8760098901F /* ImageDownloader.swift in Sources */,
 				157C201B1C42C5D80098901F /* Validation.swift in Sources */,
 				157C20131C42C5D80098901F /* ParameterEncoding.swift in Sources */,
+				15BF57B41C43304E0073E69E /* IntroPageItemView.swift in Sources */,
 				1542A5061C28C00300E11160 /* BookTableViewCell.swift in Sources */,
 				157C20391C42D8760098901F /* Request+AlamofireImage.swift in Sources */,
+				15BF57B21C432FDA0073E69E /* IntroViewController.swift in Sources */,
 				157C20181C42C5D80098901F /* ServerTrustPolicy.swift in Sources */,
 				157C20201C42CB7B0098901F /* SlideMenuController.swift in Sources */,
 				157C20241C42CBDA0098901F /* MenuViewController.swift in Sources */,
@@ -460,6 +471,7 @@
 				157C203B1C42D8760098901F /* UIImage+AlamofireImage.swift in Sources */,
 				157C20261C42CC0B0098901F /* AboutViewController.swift in Sources */,
 				157C20331C42D8760098901F /* Image.swift in Sources */,
+				15BF57B61C4335230073E69E /* ExUIColor.swift in Sources */,
 				157C20111C42C5D80098901F /* Manager.swift in Sources */,
 				157C203A1C42D8760098901F /* UIButton+AlamofireImage.swift in Sources */,
 				157C200C1C42C5D80098901F /* Alamofire.swift in Sources */,
